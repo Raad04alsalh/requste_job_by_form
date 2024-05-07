@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px;
+            border-color: gray;
+            border-style: dotted;
+            text-align: left;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <form>
+        <form>
+ <label for="job_title">Job Titel: </label>
+ <input type="text" id="job_title" name="job_title" required><br><br>
+ </form>
+ <form>
+ <label for="description">Description:</label>
+<textarea name="description" rows="5" cols="20" required></textarea>
+<p><i>Brief description should have almost 500 character</i></p><br><br>
+</form>
+<form>
+    <label for="company_name">Company Name: </label>
+    <input type="text" id="company_name" name="company_name" required><br><br>
+</form>
+<form>
+    <label for="contac_number">Contact Number: </label>
+    <input type="number" id="contac_number" name="contac_number" required><br><br>
+</form>
+<form>
+    <label for="contact_person">Contact person: </label>
+    <input type="text" id="contact_person" name="contact_person" required><br><br>
+</form>
+<form>
+</form>
+<label for="email">Email: </label>
+<input type="email" id="email" name="email" required><br><br>
+</form>
+<form>
+    <label for="work_station">Work Station: </label>
+    <input type="checkbox" id="full_time" name="full_time" value="full_time">
+    <label for="full_time">Full Time</label>
+    <input type="checkbox" id="part_time" name="part_time" value="part_time">
+    <label for="part_time">Part Time</label>
+    <input type="checkbox" id="per_dim" name="per_dim" value="per_dim">
+    <label for="per_dim">Per Dim</label>
+    <input type="checkbox" id="other" name="other" value="other">
+    <label for="other">Other</label><br><br>
+</form>
+<form>
+<label for="salary">Salary: </label>
+<input type="text" id="salary" name="salary" required>
+<select id="salary" name="salary" size="1">
+    <option value="US dollar">US Dollar</option>
+    <option value="JD jordan">JD Jordan</option>
+    <option value="ED">Dirham Emerat</option>
+    <option value="euro">Eurpean Euro</option>
+</select>
+<select id="salary" name="salary" size="1">
+    <option value="monthly">Monthly</option>
+    <option value="weekly">Weekly</option>
+    <option value="daily">Daily</option>
+</select><br><br>
+</form>
+<form>
+    <label for="exp_year">Experience Year:</label>
+    <input type="text" id="exp_year" name="exp_year" required>
+</form><br><br>
+<form>
+    <label for="location">Location: </label>
+    <input type="text" id="location" name="location" required>
+</form><br><br>
+<form>
+    <label for="qualifications">Qualifications:</label>
+    <select id="qualifications" name="qualifications" size="4" multiple>
+        <option value="any">Any</option>
+        <option value="high_school">High School</option>
+        <option value="Associate">Associate</option>
+        <option value="pre_bach">Pre Bachelors</option>
+    </select>
+    <button type="button" onclick="alert('Done Added')">Add</button>
+    <button type="button" onclick="alert('Done Removed')">Remove</button>
+<textarea name="any" rows="5" cols="5">any</textarea>
+</form><br><br>
+<form>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</form>
+   </div>
+</body>
+</html>
