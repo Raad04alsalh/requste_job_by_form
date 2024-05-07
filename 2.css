@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 7px;
+    text-align: left;
+
+}
+th{
+    text-align: center;
+    font-size: larger;
+}
+.last_line{
+    background-color: gray;
+    font: bold;
+}
+/* td tr{
+    border-color: black;
+    text-align: center;
+    font-size: medium;
+} */
